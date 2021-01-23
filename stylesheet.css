@@ -1,0 +1,61 @@
+*{
+
+}
+#tentacles{
+    margin: 2px 1em 0 auto;
+}
+.Valorant{
+    padding: 1em 2em 2em 0em;
+}
+body{
+    color: rgb(255, 255, 255);
+    font-size: 1in;
+}
+
+h1{
+    color: green;
+    background-color: #ffffff;
+    border-style: dashed solid;
+    border-color: red;
+    border-width: thick;
+    border-radius: 25% 10%;
+    line-height: 2em;
+
+}
+h2{
+    color: rgba(255, 255, 255,1);
+    color: #ffffff;
+    font-size: 3ch;
+
+}
+p{
+    color:#FFF;
+    font-size: 30px;
+    display: block;
+}
+h3{
+    color:hsl(0, 100%, 50%);
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    display: none;
+    position: sticky;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+footer{
+    color:hsla(288, 100%, 100%, 1);
+    font-size: 2rem;
+    margin-top: auto;
+    height: 50px;
+    max-width: 900px;
+    min-width: 100px;
+    width: auto;
+    text-decoration: underline;
+    text-align: center;
+    position:relative;
+}
