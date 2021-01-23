@@ -1,5 +1,8 @@
 *{
-    color:black;
+
+}
+div label{
+    color: black;
 }
 #tentacles{
     margin: auto auto auto auto;
@@ -23,13 +26,16 @@ h1{
     line-height: 2em;
 
 }
-h2{
+h2,h3{
     color: rgba(255, 255, 255,1);
     font-size: 3ch;
 
 }
+h1 ~ iframe{
+    color: orange;
+}
 h3{
-    font-size: 30px;
+    font-size: 2rem;
     display: block;
 }
 h3[target=blank] {
@@ -46,9 +52,14 @@ h3[target=blank] {
     padding-right: 1em;
 
 }
+datalist > option{
+    color: red;
+}
+header + footer{
+    font-size: 3cm;
+}
 footer{
     color:hsla(288, 100%, 100%, 1);
-    font-size: 2rem;
     margin-top: auto;
     height: 50px;
     max-width: 900px;
@@ -57,4 +68,34 @@ footer{
     text-decoration: underline;
     text-align: center;
     position:relative;
+}
+h2.tester{
+    background-color: chartreuse;
+}
+h1:hover {
+    color: orange;
+  }
+h1:active{
+    color:darkblue
+}
+@media only screen and (max-width: 4000px) {
+    body {
+      background-color:darkred;
+    }
+  }
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.item{
+    flex-grow: 1;
+}
+.container1{
+    display:grid;
+    grid-gap: 10px;
+    justify-items: center;
+}
+.item1{
+    align-self: end;
 }
