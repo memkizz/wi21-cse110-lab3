@@ -2,7 +2,7 @@
 
 }
 #tentacles{
-    margin: 2px 1em 0 auto;
+    margin: auto auto auto auto;
 }
 .Valorant{
     padding: 1em 2em 2em 0em;
@@ -10,6 +10,7 @@
 body{
     color: rgb(255, 255, 255);
     font-size: 1in;
+    background-color:#fff
 }
 
 h1{
@@ -24,12 +25,10 @@ h1{
 }
 h2{
     color: rgba(255, 255, 255,1);
-    color: #ffffff;
     font-size: 3ch;
 
 }
 h3{
-    color:#FFF;
     font-size: 30px;
     display: block;
 }
